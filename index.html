@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Responsive Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">John Doe</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="#" class="home__social-icon"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#" class="home__social-icon"><i class="ri-twitter-fill"></i></a>
+                        <a href="#" class="home__social-icon"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                    <div class="home__img">
+                        <img src="img/home.jpg" alt="Home">
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm John Doe</h1>
+                        <h3 class="home__subtitle">Web Developer</h3>
+                        <p class="home__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae arcu eget dui condimentum lacinia.</p>
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container container grid">
+                <div class="about__img">
+                    <img src="img/about.jpg" alt="About">
+                </div>
+                <div class="about__data">
+                    <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae arcu eget dui condimentum lacinia.</p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">05</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">20</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">10</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <div class="services__container container grid">
+                <div class="services__content">
+                    <div class="services__icon">
+                        <i class="ri-layout-grid-line"></i>
+                    </div>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="services__content">
+                    <div class="services__icon">
+                        <i class="ri-code-line"></i>
+                    </div>
+                    <h3 class="services__title">Web Development</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="services__content">
+                    <div class="services__icon">
+                        <i class="ri-responsive-line"></i>
+                    </div>
+                    <h3 class="services__title">Responsive Design</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <div class="projects__container container grid">
+                <div class="projects__card">
+                    <img src="img/project1.jpg" alt="Project 1" class="projects__img">
+                    <h3 class="projects__title">Project One</h3>
+                    <p class="projects__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="projects__button">View Details</a>
+                </div>
+                <div class="projects__card">
+                    <img src="img/project2.jpg" alt="Project 2" class="projects__img">
+                    <h3 class="projects__title">Project Two</h3>
+                    <p class="projects__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="projects__button">View Details</a>
+                </div>
+                <div class="projects__card">
+                    <img src="img/project3.jpg" alt="Project 3" class="projects__img">
+                    <h3 class="projects__title">Project Three</h3>
+                    <p class="projects__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="projects__button">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <i class="ri-mail-line contact__card-icon"></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">example@example.com</span>
+                        <a href="mailto:example@example.com" class="contact__button">Write me <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="contact__card">
+                        <i class="ri-phone-line contact__card-icon"></i>
+                        <h3 class="contact__card-title">Phone</h3>
+                        <span class="contact__card-data">+123 456 789</span>
+                        <a href="tel:+123456789" class="contact__button">Call me <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="contact__card">
+                        <i class="ri-map-pin-line contact__card-icon"></i>
+                        <h3 class="contact__card-title">Location</h3>
+                        <span class="contact__card-data">New York, USA</span>
+                    </div>
+                </div>
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" class="contact__input" placeholder="Email">
+                        </div>
+                        <div class="contact__content">
+                            <input type="text" class="contact__input" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <textarea class="contact__input" placeholder="Message"></textarea>
+                    </div>
+                    <button class="button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">John Doe</h1>
+            <p class="footer__description">Web Developer</p>
+            <ul class="footer__links">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#services" class="footer__link">Services</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+            </ul>
+            <div class="footer__socials">
+                <a href="#" class="footer__social"><i class="ri-facebook-box-fill"></i></a>
+                <a href="#" class="footer__social"><i class="ri-twitter-fill"></i></a>
+                <a href="#" class="footer__social"><i class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
